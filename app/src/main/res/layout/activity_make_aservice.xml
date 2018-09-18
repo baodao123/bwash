@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MakeAServiceActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="@drawable/ic_makeaservice"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="40dp">
+
+        <ImageButton
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_action_back"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Service"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:layout_weight="7"/>
+
+        <ImageButton
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_action_love"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="35dp">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/ic_phone" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:drawablePadding="10dp"
+            android:inputType="text|textAutoCorrect|textCapWords"
+            android:hint="Phone Number"
+            android:textSize="15sp"
+            android:background="#ffff" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="35dp"
+        android:background="#ffff">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_location"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:hint="Location"
+            android:inputType="text|number|textPostalAddress"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:background="ffff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="35dp"
+        android:background="#ffff">
+
+        <ImageView
+            android:src="@drawable/ic_time"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:hint="Time"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:inputType="datetime|date|number"
+            android:background="ffff"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_request" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="Request"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="top"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:textSize="15sp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+
+        android:background="#ffff">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f35a4a"
+            android:layout_gravity="center"
+            android:text="Sumit Request"
+            android:textColor="#ffff"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
